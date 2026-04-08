@@ -1,0 +1,12 @@
+streamlit
+pillow
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+shap
+lime
+tensorflow
+imbalanced-learn
+fastparquet
