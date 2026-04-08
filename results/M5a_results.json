@@ -1,0 +1,20 @@
+{
+  "model": "M5a",
+  "sampling": "SMOTE",
+  "accuracy": 0.995765,
+  "precision": 0.999945,
+  "recall": 0.995806,
+  "f1": 0.997871,
+  "auc_roc": 0.99953,
+  "false_negatives": 7213,
+  "confusion_matrix": [
+    [
+      5671,
+      95
+    ],
+    [
+      7213,
+      1712555
+    ]
+  ]
+}

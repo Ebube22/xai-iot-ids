@@ -1,0 +1,18 @@
+{
+  "model": "M2 \u2014 Optimised CNN+LSTM",
+  "architecture": "CNN + LSTM",
+  "optimiser": "Adam",
+  "activation": "ReLU",
+  "batch_norm": true,
+  "dropout": "0.3 CNN / 0.2 LSTM",
+  "epochs": 19,
+  "early_stopping": true,
+  "smote": true,
+  "class_weight": false,
+  "accuracy": 0.9947,
+  "precision": 1.0,
+  "recall": 0.9947,
+  "f1_score": 0.9973,
+  "auc_roc": 0.9996,
+  "false_negatives": 9089
+}

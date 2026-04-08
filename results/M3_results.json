@@ -1,0 +1,18 @@
+{
+  "model": "M3 \u2014 CNN + BiLSTM",
+  "architecture": "CNN + BiLSTM",
+  "optimiser": "Adam",
+  "activation": "ReLU",
+  "batch_norm": true,
+  "dropout": "0.3 CNN / 0.2 BiLSTM",
+  "epochs": 26,
+  "early_stopping": true,
+  "smote": true,
+  "attention": false,
+  "accuracy": 0.9957,
+  "precision": 1.0,
+  "recall": 0.9957,
+  "f1_score": 0.9978,
+  "auc_roc": 0.9996,
+  "false_negatives": 7409
+}

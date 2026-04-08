@@ -1,0 +1,55 @@
+{
+  "faithfulness": [
+    {
+      "features_removed": 1,
+      "baseline_acc": 100.0,
+      "masked_acc": 98.0,
+      "accuracy_drop": 2.0
+    },
+    {
+      "features_removed": 3,
+      "baseline_acc": 100.0,
+      "masked_acc": 89.0,
+      "accuracy_drop": 11.0
+    },
+    {
+      "features_removed": 5,
+      "baseline_acc": 100.0,
+      "masked_acc": 85.0,
+      "accuracy_drop": 15.0
+    },
+    {
+      "features_removed": 10,
+      "baseline_acc": 100.0,
+      "masked_acc": 58.0,
+      "accuracy_drop": 42.0
+    }
+  ],
+  "shap_dbscan_consistency": {
+    "dbscan_signals": [
+      "ACK Flag Count",
+      "RST Flag Count",
+      "Fwd Packets/s",
+      "PSH Flag Count",
+      "Down/Up Ratio",
+      "FIN Flag Count"
+    ],
+    "shap_top10": [
+      "SYN Flag Count",
+      "Protocol",
+      "ACK Flag Count",
+      "Packet Length Max",
+      "Fwd_Bwd_Pkt_Ratio",
+      "Avg Packet Size",
+      "Flow Packets/s",
+      "Total Fwd Packets",
+      "Bwd Packets/s",
+      "Fwd Packets/s"
+    ],
+    "overlap": [
+      "ACK Flag Count",
+      "Fwd Packets/s"
+    ],
+    "consistency_score_pct": 33.3
+  }
+}

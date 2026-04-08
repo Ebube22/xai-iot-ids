@@ -1,0 +1,16 @@
+{
+  "model": "M1 \u2014 Baseline (Alkahtani 2021)",
+  "architecture": "CNN + LSTM",
+  "optimiser": "RMSprop",
+  "activation": "tanh",
+  "batch_norm": false,
+  "dropout": "0.5 flat",
+  "epochs": 10,
+  "smote": true,
+  "class_weight": false,
+  "accuracy": 0.9939,
+  "precision": 1.0,
+  "recall": 0.9939,
+  "f1_score": 0.9969,
+  "auc_roc": 0.9995
+}

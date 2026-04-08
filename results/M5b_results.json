@@ -1,0 +1,20 @@
+{
+  "model": "M5b",
+  "sampling": "Hybrid (RUS + SMOTE 80/20)",
+  "accuracy": 0.993847,
+  "precision": 0.99998,
+  "recall": 0.993847,
+  "f1": 0.996904,
+  "auc_roc": 0.999484,
+  "false_negatives": 10582,
+  "confusion_matrix": [
+    [
+      5731,
+      35
+    ],
+    [
+      10582,
+      1709186
+    ]
+  ]
+}

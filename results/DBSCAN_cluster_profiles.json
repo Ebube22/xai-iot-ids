@@ -1,0 +1,29 @@
+[
+  {
+    "cluster": "OUTLIER (noise)",
+    "n_samples": 151,
+    "n_attack": 117,
+    "n_benign": 34,
+    "attack_pct": 77.48,
+    "benign_pct": 22.52,
+    "interpretation": "Anomalous flows \u2014 hard to detect"
+  },
+  {
+    "cluster": "Cluster 0",
+    "n_samples": 14726,
+    "n_attack": 14710,
+    "n_benign": 16,
+    "attack_pct": 99.89,
+    "benign_pct": 0.11,
+    "interpretation": "High-density attack cluster"
+  },
+  {
+    "cluster": "Cluster 1",
+    "n_samples": 123,
+    "n_attack": 123,
+    "n_benign": 0,
+    "attack_pct": 100.0,
+    "benign_pct": 0.0,
+    "interpretation": "High-density attack cluster"
+  }
+]
