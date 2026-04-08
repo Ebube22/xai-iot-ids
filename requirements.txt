@@ -7,6 +7,5 @@ matplotlib
 seaborn
 shap
 lime
-tensorflow
 imbalanced-learn
 fastparquet
