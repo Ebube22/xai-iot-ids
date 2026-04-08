@@ -1,0 +1,19 @@
+# Large data files
+*.parquet
+*.npy
+*.keras
+*.h5
+
+# Preprocessed data folder
+preprocessed_data/
+
+# Python environment
+applied_ai_env/
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
